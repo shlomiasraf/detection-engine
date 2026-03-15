@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "2026-03-11T12:00:00",
+    "user": "admin",
+    "ip": "185.22.55.1",
+    "country": "IL",
+    "action": "login_success"
+  },
+  {
+    "timestamp": "2026-03-11T12:06:00",
+    "user": "admin",
+    "ip": "44.31.22.11",
+    "country": "US",
+    "action": "login_success"
+  },
+  {
+    "timestamp": "2026-03-11T13:00:00",
+    "user": "david",
+    "ip": "10.0.0.5",
+    "country": "IL",
+    "action": "login_success"
+  },
+  {
+    "timestamp": "2026-03-11T16:30:00",
+    "user": "david",
+    "ip": "52.14.90.2",
+    "country": "DE",
+    "action": "login_success"
+  },
+  {
+    "timestamp": "2026-03-11T14:00:00",
+    "user": "noa",
+    "ip": "192.168.1.8",
+    "country": "IL",
+    "action": "login_failed"
+  },
+  {
+    "timestamp": "2026-03-11T14:02:00",
+    "user": "noa",
+    "ip": "192.168.1.8",
+    "country": "IL",
+    "action": "login_success"
+  },
+  {
+    "timestamp": "2026-03-11T14:08:00",
+    "user": "noa",
+    "ip": "203.0.113.77",
+    "country": "IL",
+    "action": "login_success"
+  },
+  {
+    "timestamp": "2026-03-11T15:00:00",
+    "user": "guest",
+    "ip": "8.8.8.8",
+    "country": "FR",
+    "action": "login_success"
+  },
+  {
+    "timestamp": "2026-03-11T15:08:00",
+    "user": "guest",
+    "ip": "1.1.1.1",
+    "country": "FR",
+    "action": "login_success"
+  }
+]

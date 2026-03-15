@@ -1,0 +1,73 @@
+{
+  "total_alerts": 9,
+  "alerts": [
+    {
+      "type": "foreign_login",
+      "user": "admin",
+      "ip": "185.22.55.1",
+      "country": "CH",
+      "message": "Foreign login detected"
+    },
+    {
+      "type": "foreign_login",
+      "user": "lior",
+      "ip": "8.8.8.8",
+      "country": "US",
+      "message": "Foreign login detected"
+    },
+    {
+      "type": "foreign_login",
+      "user": "lior",
+      "ip": "1.1.1.1",
+      "country": "AU",
+      "message": "Foreign login detected"
+    },
+    {
+      "type": "foreign_login",
+      "user": "admin",
+      "ip": "44.31.22.11",
+      "country": "RU",
+      "message": "Foreign login detected"
+    },
+    {
+      "type": "foreign_login",
+      "user": "yossi",
+      "ip": "52.14.90.2",
+      "country": "US",
+      "message": "Foreign login detected"
+    },
+    {
+      "type": "foreign_login",
+      "user": "yossi",
+      "ip": "52.14.90.2",
+      "country": "US",
+      "message": "Foreign login detected"
+    },
+    {
+      "type": "brute_force",
+      "ip": "185.22.55.1",
+      "failed_count": 3,
+      "message": "Brute force detected"
+    },
+    {
+      "type": "password_spray",
+      "ip": "185.22.55.1",
+      "users": [
+        "david",
+        "admin",
+        "noa"
+      ],
+      "message": "Password spray detected"
+    },
+    {
+      "type": "password_spray",
+      "ip": "198.51.100.24",
+      "users": [
+        "ron",
+        "or",
+        "dan"
+      ],
+      "message": "Password spray detected"
+    }
+  ]
+}
