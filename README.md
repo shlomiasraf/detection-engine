@@ -1,7 +1,11 @@
 Authentication Detection Engine
 Overview
 
-This project implements a behavioral authentication detection engine that analyzes Linux security telemetry using Python, pandas, and SQL.
+This project implements a behavioral authentication detection engine that analyzes Linux authentication telemetry using:
+
+Python
+pandas
+SQL
 
 Raw authentication logs are parsed into structured telemetry and stored in a relational database before being analyzed using sequence-based detection logic.
 
@@ -90,7 +94,7 @@ SQL security telemetry ingestion
 pandas-based event grouping and filtering
 Data Sources
 
-Authentication telemetry is parsed from Linux authentication logs:
+Authentication telemetry is parsed from Linux:
 
 /var/log/auth.log
 
@@ -156,18 +160,3 @@ persistence detection techniques
 attack-chain correlation logic
 pandas-based detection workflows
 modular Python detector development
-Technologies Used
-Python
-pandas
-SQLAlchemy
-MySQL
-Linux authentication telemetry
-JSON alert generation
-Use Case
-
-This project reflects authentication-focused threat detection workflows similar to those implemented by:
-
-Security Data Analysts
-Detection Engineers
-Identity security monitoring teams
-Behavioral authentication analytics platforms
