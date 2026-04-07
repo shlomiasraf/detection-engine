@@ -141,18 +141,11 @@ Skills Demonstrated
 
 This lab demonstrates practical detection engineering skills:
 
-authentication telemetry parsing
-
-SQL-based security data normalization
-
-pandas-based behavioral detection logic
-
-time-window correlation detection
-
-attack-chain sequence reconstruction
-
-privilege escalation detection
-
-persistence detection techniques
-
-modular Python detector development
+- authentication telemetry parsing
+- SQL-based security data normalization
+- pandas-based behavioral detection logic
+- time-window correlation detection
+- attack-chain sequence reconstruction
+- privilege escalation detection
+- persistence detection techniques
+- modular Python detector development
