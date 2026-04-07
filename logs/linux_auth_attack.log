@@ -1,0 +1,25 @@
+Mar 11 10:00:01 server1 sshd[21401]: Failed password for root from 185.22.55.1 port 53412 ssh2
+Mar 11 10:00:07 server1 sshd[21402]: Failed password for root from 185.22.55.1 port 53413 ssh2
+Mar 11 10:00:14 server1 sshd[21403]: Failed password for root from 185.22.55.1 port 53414 ssh2
+Mar 11 10:00:40 server1 sshd[21404]: Accepted password for root from 185.22.55.1 port 53420 ssh2
+Mar 11 10:01:05 server1 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 11 10:01:40 server1 useradd[21420]: new user: name=backupsvc, UID=1008, GID=1008, home=/home/backupsvc, shell=/bin/bash
+Mar 11 10:02:10 server1 passwd[21421]: password changed for backupsvc
+
+Mar 11 11:15:02 server1 sshd[22001]: Failed password for invalid user test from 203.0.113.77 port 51201 ssh2
+Mar 11 11:16:30 server1 sshd[22002]: Failed password for invalid user test from 203.0.113.77 port 51222 ssh2
+Mar 11 11:18:10 server1 sshd[22003]: Failed password for invalid user admin from 203.0.113.77 port 51240 ssh2
+
+Mar 11 12:05:11 server1 sshd[22501]: Accepted publickey for devops from 10.0.0.5 port 60211 ssh2
+Mar 11 12:05:40 server1 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+
+Mar 11 13:20:01 server1 sshd[23001]: Failed password for admin from 198.51.100.24 port 60001 ssh2
+Mar 11 13:20:18 server1 sshd[23002]: Failed password for support from 198.51.100.24 port 60002 ssh2
+Mar 11 13:20:44 server1 sshd[23003]: Failed password for backup from 198.51.100.24 port 60003 ssh2
+
+Mar 11 14:10:00 server1 sshd[23501]: Accepted password for noa from 44.31.22.11 port 61001 ssh2
+Mar 11 14:11:10 server1 sudo:     noa : TTY=pts/2 ; PWD=/home/noa ; USER=root ; COMMAND=/usr/bin/apt update
+
+Mar 11 15:45:00 server1 sshd[24001]: Failed password for root from 185.22.55.1 port 54001 ssh2
+Mar 11 15:45:12 server1 sshd[24002]: Failed password for root from 185.22.55.1 port 54002 ssh2
+Mar 11 15:45:30 server1 sshd[24003]: Failed password for root from 185.22.55.1 port 54003 ssh2

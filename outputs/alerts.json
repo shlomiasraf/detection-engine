@@ -53,9 +53,9 @@
       "type": "password_spray",
       "ip": "185.22.55.1",
       "users": [
-        "david",
         "admin",
-        "noa"
+        "noa",
+        "david"
       ],
       "message": "Password spray detected"
     },
@@ -63,9 +63,9 @@
       "type": "password_spray",
       "ip": "198.51.100.24",
       "users": [
-        "ron",
+        "dan",
         "or",
-        "dan"
+        "ron"
       ],
       "message": "Password spray detected"
     }
