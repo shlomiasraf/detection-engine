@@ -137,7 +137,7 @@ Example output:
 
 outputs/alerts.json
 
-Skills Demonstrated
+### Skills Demonstrated
 
 This lab demonstrates practical detection engineering skills:
 
