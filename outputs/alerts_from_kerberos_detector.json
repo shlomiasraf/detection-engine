@@ -1,0 +1,38 @@
+{
+  "total_alerts": 5,
+  "alerts": [
+    {
+      "alert_type": "Kerberos brute-force success pattern",
+      "username": "itay",
+      "failures_before_success": 3,
+      "time": "2026-04-09 08:23:00"
+    },
+    {
+      "alert_type": "Kerberos multi-source TGT activity",
+      "username": "michael",
+      "unique_source_ip_count": 4,
+      "window_start": "2026-04-09 09:00:00"
+    },
+    {
+      "alert_type": "Kerberos RC4 encryption usage",
+      "username": "admin1",
+      "source_ip": "185.220.101.5",
+      "event_type": "TGT_REQUEST",
+      "time": "2026-04-09 02:14:00"
+    },
+    {
+      "alert_type": "Kerberos RC4 encryption usage",
+      "username": "admin1",
+      "source_ip": "185.220.101.5",
+      "event_type": "TGT_REQUEST",
+      "time": "2026-04-09 02:16:00"
+    },
+    {
+      "alert_type": "Kerberos RC4 encryption usage",
+      "username": "admin1",
+      "source_ip": "185.220.101.5",
+      "event_type": "TGT_REQUEST",
+      "time": "2026-04-09 02:18:00"
+    }
+  ]
+}
