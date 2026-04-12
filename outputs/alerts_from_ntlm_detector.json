@@ -1,0 +1,11 @@
+{
+  "total_alerts": 1,
+  "alerts": [
+    {
+      "alert_type": "NTLM brute-force success pattern",
+      "username": "david",
+      "failures_before_success": 3,
+      "time": "2026-04-09 10:03:00"
+    }
+  ]
+}
